@@ -1,0 +1,9 @@
+lib{frozen}: $src_upstream/include/hxx{**}
+{
+  cxx.export.poptions += "-I$src_upstream/include"
+}
+
+../upstream/include/
+{
+  hxx{*}: install.subdirs = true
+}

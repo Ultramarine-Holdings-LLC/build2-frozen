@@ -1,0 +1,6 @@
+$out_root/
+{
+  include frozen/
+}
+
+export $out_root/frozen/$import.target
