@@ -2,3 +2,5 @@ lib{frozen}: hxx{**}
 {
   cxx.export.poptions += "-I$src_root"
 }
+
+hxx{*}: install.subdirs = true
