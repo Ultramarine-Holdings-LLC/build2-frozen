@@ -1,0 +1,6 @@
+import libs = frozen%lib{frozen}
+
+hxx{*}: extension = hpp
+cxx{*}: extension = cpp
+
+exe{driver}: src/{hxx cxx}{* -no_exceptions} $libs
