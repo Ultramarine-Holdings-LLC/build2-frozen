@@ -7,3 +7,4 @@ url: https://github.com/serge-sans-paille/frozen
 depends: * build2 >= 0.14.0
 depends: * bpkg >= 0.14.0
 description-file: README.rst
+description-type: text/plain
