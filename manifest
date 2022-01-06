@@ -1,6 +1,6 @@
 : 1
 name: frozen
-version: 1.0.1-a.0.z
+version: 1.0.1
 summary: a header-only, constexpr alternative to gperf for C++14 users
 license: Apache-2.0
 url: https://github.com/serge-sans-paille/frozen
