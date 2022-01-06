@@ -3,4 +3,8 @@ lib{frozen}: hxx{**}
   cxx.export.poptions += "-I$src_root"
 }
 
-hxx{*}: install.subdirs = true
+hxx{*}:
+{
+    install = include/frozen/
+    install.subdirs = true
+}
